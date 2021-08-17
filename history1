@@ -1,0 +1,23 @@
+    1  cd /var/log/apache2/
+    2  ls -la
+    3  crontab -l
+    4  sudo chmod 600 ftp1.pem 
+    5  ssh -i ftp1.pem ubuntu@34.254.224.53
+    6  ls -la
+    7  git clone https://github.com/arturkh64/homework.git
+    8  cd homework/
+    9  nano artur
+   10  git branch homework
+   11  git branch
+   12  git add .
+   13  git commit -m "first file"
+   14  git push
+   15  ls -la
+   16  git push
+   17  git branch 
+   18  git branch homework/task1
+   19  git branch 
+   20  git checkout homework/task1 
+   21  git branch 
+   22  nano history1
+   23  history > history1 
